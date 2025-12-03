@@ -55,4 +55,24 @@ To run the demo on an image or folder:
 
 Adjust parameters inside the scripts or use command-line arguments as needed.
 
+--------------------------------------------------------------------------------
+Dataset
+--------------------------------------------------------------------------------
+
+A sample dataset of labeled sea turtle images used for training and evaluation is available at the following link:
+
+https://drive.google.com/drive/folders/10UqPJ5GNC6OhXc8guANm7i0crqiZ_IIy?usp=sharing
+
+This dataset includes individual turtle images organized into subfolders by identity (class). It is used in the training and evaluation pipeline provided. Please ensure the directory structure matches the expected ImageFolder format used by torchvision.
+
+If you use the dataset, kindly cite : 
+
+@article{shaharudin2025swish,
+  title={E-Swish Activations Function in ResNet Architectures for Enhanced Sea Turtle Individual Recognition.},
+  author={Shaharudin, Siti NurFarahim and Jawahir Hj Wan Yussof, Wan Nural and Hitam, Muhammad Suzuri and Awalludin, Ezmahamrul Afreen and Ismail, Nur Baini and Safawie Che Ibrahim, Mohd Erman},
+  journal={Asia-Pacific Journal of Information Technology \& Multimedia},
+  volume={14},
+  number={1},
+  year={2025}
+}
 
